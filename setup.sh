@@ -80,7 +80,7 @@ echo '============================================='
 echo '        กำลังติดตั้ง Menu '
 echo '============================================='
 sleep 3
-wget https://raw.githubusercontent.com/PAORTAL/freevpn/main/updatedll.sh && chmod +x updatedll.sh && ./updatedll.sh
+wget https://raw.githubusercontent.com/PAORTAL/freevpn/main/menu/updatedll.sh && chmod +x updatedll.sh && ./updatedll.sh
 #
 #SELESAI
 # collor status
