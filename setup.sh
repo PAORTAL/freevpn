@@ -17,8 +17,9 @@ BLUE='\033[0;34m'
 PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
+
 echo ' .......................................................... '
-echo ' 🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞     '
+echo ' 🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞     '
 echo ' 🌞🍔🍔🍔🍔🍔 ______    ____   ___ .🍔🍔🍔🍔🍔🍔🍔🌞     ' 
 echo ' 🌞🍔🍔🍔🍔🍔|      T  /    T T   T.🍔🍔🍔🍔🍔🍔🍔🌞     '  
 echo ' 🌞🍔🍔🍔🍔🍔|      | Y  o  | |   |.🍔🍔🍔🍔🍔🍔🍔🌞     ' 
@@ -26,7 +27,7 @@ echo ' 🌞🍔🍔🍔🍔🍔l_j  l_j |     | |   |.🍔🍔🍔🍔🍔🍔�
 echo ' 🌞🍔🍔🍔🍔🍔  |  |   |  _  | |   l__.🍔🍔🍔🍔🍔🍔🌞     '
 echo ' 🌞🍔🍔🍔🍔🍔  |  |   |  |  | |      j🍔🍔🍔🍔🍔🍔🌞     '
 echo ' 🌞🍔🍔🍔🍔🍔  l__j   l__j__j l______j🍔🍔🍔🍔🍔🍔🌞     '
-echo ' 🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞     '
+echo ' 🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞🌞     '
 echo '                  🍔Copyright ©🆃🅰🅻🍔           '             
 echo ' .......................................................... '
 echo ''                                                         
@@ -85,13 +86,13 @@ echo '============================================='
 echo '        กำลังติดตั้ง XRAY CORE '
 echo '============================================='
 sleep 3
-wget https://raw.githubusercontent.com/PAORTAL/freevpn/main/menu/install-xray.sh && chmod +x install-xray.sh && ./install-xray.sh
+wget https://raw.githubusercontent.com/PAORTAL/freevpn/main/install-xray.sh && chmod +x install-xray.sh && ./install-xray.sh
 #
 echo '============================================='
 echo '        กำลังติดตั้ง Menu '
 echo '============================================='
 sleep 3
-wget https://raw.githubusercontent.com/PAORTAL/freevpn/main/updatedll.sh && chmod +x updatedll.sh && ./updatedll.sh
+wget https://raw.githubusercontent.com/PAORTAL/freevpn/main/menu/updatedll.sh && chmod +x updatedll.sh && ./updatedll.sh
 #
 #SELESAI
 # collor status
