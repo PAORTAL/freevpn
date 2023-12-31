@@ -42,7 +42,6 @@ echo -e " City          : $CITY"
 echo -e " IP VPS        : $IPVPS"
 echo -e " DOMAIN        : $domain"
 echo -e " "
-echo -e "$PURPLE█████████████████████████████████████████████████████████████"
 #####INFOAKUN
 vlx=$(grep -c -E "^#& " "/etc/xray/config.json")
 let vla=$vlx/2
