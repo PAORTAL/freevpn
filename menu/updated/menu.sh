@@ -51,7 +51,7 @@ echo -e "$BLUE          4$ORANGE. ตรวจสอบบริการ       
 echo -e "$BLUE          5$ORANGE. ตั้งค่า                  "
 echo -e "$BLUE          6$RED. ออก                   "
 echo -e "█████████████████████████████████████████████████████████████"
-echo -e "$NC หากตรวจเจอปัญหาติดต่อแอดมิน $PURPLELINE:doraemonvpn "  
+echo -e "$NC หากตรวจเจอปัญหาติดต่อแอดมิน $PURPLE LINE:doraemonvpn "  
 echo -e "$NC Copyright TANvpnNet " 
 echo -e "█████████████████████████████████████████████████████████████"
 read -p " โปรดเลือก [ 1 - 6 ] : " menu
