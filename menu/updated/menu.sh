@@ -43,6 +43,23 @@ echo -e " IP VPS        : $IPVPS"
 echo -e " DOMAIN        : $domain"
 echo -e " "
 echo -e "$PURPLE█████████████████████████████████████████████████████████████"
+#####INFOAKUN
+vlx=$(grep -c -E "^#& " "/etc/xray/config.json")
+let vla=$vlx/2
+vmc=$(grep -c -E "^### " "/etc/xray/config.json")
+let vma=$vmc/2
+trx=$(grep -c -E "^#! " "/etc/xray/config.json")
+let trb=$trx/2
+ssx=$(grep -c -E "^#ss# " "/etc/xray/config.json")
+let ssa=$ssx/2
+echo -e "$PURPLE█████████████████████████████████████████████████████████████"
+echo -e "                      $NC << $CYANข้อมูลบัญชี$NC >> "
+echo -e "$PURPLE█████████████████████████████████████████████████████████████"
+echo -e "           VMESS/WS/GRPC$NC  $RED=$NC $vma$NC" "$a"
+echo -e "           VLESS/WS/GRPC$NC  $RED=$NC $vla$NC" "$a"
+echo -e "           TROJAN/WS/GRPC$NC $RED=$NC $trb$NC" "$a"
+echo -e "           SHADOW/WS/GRPC$NC $RED=$NC $ssa$NC $a"
+echo -e "$PURPLE█████████████████████████████████████████████████████████████"
 echo -e "                       $NC << $PURPLEเมนูหลัก$NC >>                             "
 echo -e "$PURPLE█████████████████████████████████████████████████████████████"
 echo -e " "
