@@ -18,8 +18,8 @@ echo "Checking VPS"
 # echo -e "${NC}${GREEN}ได้รับอนุญาติ...${NC}"
 # else
 # echo -e "${NC}${RED}คุณไม่ได้รับสิทธิเข้าใช้งาน!${NC}";
-# echo -e "${NC}${LIGHT}ติดต่อแอดมิน!!"
-# echo -e "${NC}${LIGHT}Telegram : https://t.me/yallaaj"
+# echo -e "${NC}${LIGHT}ติดต่อแอดมินWhatsapp:+66617818049"
+# echo -e "${NC}${LIGHT}LINE:doraemonvpn"
 # exit 0
 # fi
 clear
