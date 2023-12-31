@@ -34,13 +34,13 @@ jam=$(date +"%T")
 hari=$(date +"%A")
 tnggl=$(date +"%d-%B-%Y")
 domain=$(cat /etc/xray/domain)
-echo -e " TIME          : $jam"
-echo -e " DAY           : $hari"
-echo -e " DATE          : $tnggl"
-echo -e " SERVER        : $ISP"
-echo -e " City          : $CITY"
-echo -e " IP VPS        : $IPVPS"
-echo -e " DOMAIN        : $domain"
+echo -e "$CYAN TIME   $NC       :$RED $jam"
+echo -e "$CYAN DAY    $NC       :$RED $hari"
+echo -e "$CYAN DATE   $NC       :$RED $tnggl"
+echo -e "$CYAN SERVER $NC       :$RED $ISP"
+echo -e "$CYAN City   $NC       :$RED $CITY"
+echo -e "$CYAN IP VPS $NC       :$RED $IPVPS"
+echo -e "$CYAN DOMAIN  $NC      :$RED $domain"
 echo -e " "
 #####INFOAKUN
 vlx=$(grep -c -E "^#& " "/etc/xray/config.json")
