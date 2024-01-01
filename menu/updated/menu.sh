@@ -53,7 +53,7 @@ let trb=$trx/2
 ssx=$(grep -c -E "^##&# " "/etc/xray/config.json")
 let ssa=$ssx/2
 echo -e "$PURPLE███████████████████████████████████████████████████████████████"
-echo -e "                      $NC << $CYANข้อมูลบัญชี $NC>> "
+echo -e "                      $NC << $CYANข้อมูลบัญชี $NC >> "
 echo -e "$PURPLE███████████████████████████████████████████████████████████████"
 echo -e " "
 echo -e "$CYAN           VMESS/WS/GRPC$CYAN  $NC=$RED $vma$NC" "$a"
