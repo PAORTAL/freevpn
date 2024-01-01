@@ -82,6 +82,18 @@ echo -e " "
 read -p " โปรดเลือก [ 1 - 6 ] : " menu
 echo -e " "
 echo -e "$PURPLE███████████████████████████████████████████████████████████████"
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e " "
+echo -e "$BLUE██╗  ██╗$CYAN██████╗ $BLUE █████╗ $CYAN██╗   ██╗ "
+echo -e "$BLUE╚██╗██╔╝$CYAN██╔══██╗$BLUE██╔══██╗$CYAN╚██╗ ██╔╝ "
+echo -e "$BLUE ╚███╔╝ $CYAN██████╔╝$BLUE███████║ $CYAN╚████╔╝  "
+echo -e "$BLUE ██╔██╗ $CYAN██╔══██╗$BLUE██╔══██║  $CYAN╚██╔╝   "
+echo -e "$BLUE██╔╝ ██╗$CYAN██║  ██║$BLUE██║  ██║   $CYAN██║    "
+echo -e "$BLUE╚═╝  ╚═╝$CYAN╚═╝  ╚═╝$BLUE╚═╝  ╚═╝   $CYAN╚═╝    "
 echo -e ""
 case $menu in
 1)
