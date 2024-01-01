@@ -71,6 +71,7 @@ echo -e "$CYAN          3$ORANGE. ตรวจสอบพอร์ต          
 echo -e "$CYAN          4$ORANGE. ตรวจสอบบริการ         "
 echo -e "$CYAN          5$ORANGE. ตั้งค่า                  "
 echo -e "$CYAN          6$RED. ออก                   "
+echo -e " "
 echo -e "$PURPLE███████████████████████████████████████████████████████████████"
 echo -e " "
 echo -e "$ORANGE หากตรวจเจอปัญหาติดต่อแอดมิน $NC LINE $PURPLE:doraemonvpn "  
@@ -79,6 +80,7 @@ echo -e " "
 echo -e "$PURPLE███████████████████████████████████████████████████████████████"
 echo -e " "
 read -p " โปรดเลือก [ 1 - 6 ] : " menu
+echo -e " "
 echo -e "$PURPLE███████████████████████████████████████████████████████████████"
 echo -e ""
 case $menu in
